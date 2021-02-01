@@ -4,9 +4,6 @@
 
 layout: home
 ---
-<html>
-<body>
+hello world
 ["https://mrbundles.itch.io/the-downside"]
 {% include buttons.html %}
-</body>
-</html>

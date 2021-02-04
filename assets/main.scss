@@ -1,5 +1,103 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+/* site colors
+light shades: FAF9F8
+		Use this color as the background for your dark-on-light designs, or the text color of an inverted design.
+light accent: 838384
+		Accent colors can be used to bring attention to design elements by contrasting with the rest of the palette.
+main brand color: CB324E
+		This color should be eye-catching but not harsh. It can be liberally applied to your layout as its main identity.
+dark accent: 656566
+		Another accent color to consider. Not all colors have to be used - sometimes a simple color scheme works best.
+dark shades: 242535
+		Use as the text color for dark-on-light designs, or as the background for inverted designs.
+*/
 
 @import "minima";
+
+:root{
+	--light-shade: #FAF9F8;
+	--lighter-accent: #C2C2C2;
+	--light-accent: #838384;
+	--main-color-light: #E699A7;
+	--main-color: #CB324E;
+	--main-color-dark: #661928;
+	--dark-accent: #656566;
+	--darker-accent: #333333;
+	--dark-shade: #242535;
+
+	--game-img-width: 150px;
+	--game-img-height: 125px;
+	--game-img-radius: 15px;
+}
+
+body{
+	background: var(--light-shade);
+}
+
+.logo{
+	height: 50px;
+	width: 50px;
+}
+
+.game-main-wrapper{
+	display: flex;
+	justify-content:space-between;
+	background: var(--lighter-accent);
+	padding: 30px;
+	border-radius: 25px;
+}
+
+.game-title{
+	color: var(--dark-shade);
+	font-size: 24pt;
+	font-weight: bold;
+}
+
+.game-description{
+	color: var(--dark-shade);
+	font-size: 12pt;
+}
+
+.game-button-play{
+
+}
+
+.game-button-download{
+
+}
+
+.game-img-wrapper{
+	width: var(--game-img-width);
+	height: var(--game-img-height);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.game-img{
+	width: var(--game-img-width);
+	height: var(--game-img-height);
+	border-radius: var(--game-img-radius);
+	opacity: 1.0;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+
+.game-img:hover{
+	opacity: 0.0;
+}
+
+.game-gif{
+	width: var(--game-img-width);
+	height: var(--game-img-height);
+	border-radius: var(--game-img-radius);
+	opacity: 0.0;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+
+.game-gif:hover{
+	opacity: 1.0;
+}

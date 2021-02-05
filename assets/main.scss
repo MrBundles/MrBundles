@@ -39,6 +39,7 @@ body{
 .logo{
 	height: 50px;
 	width: 50px;
+	float: left;
 }
 
 .game-main-wrapper{
@@ -57,14 +58,45 @@ body{
 
 }
 
-.game-title{
-	color: var(--dark-shade);
+h1.site-title{
+	color: var(--main-color);
+	font-size: 36pt;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+h1.game-page-title{
+	color: var(--main-color);
+	font-size: 32pt;
+	font-weight: bold;
+	margin: 0;
+}
+
+h2.game-title{
+	color: var(--main-color);
 	font-size: 24pt;
 	font-weight: bold;
+	margin: 0;
+}
+
+h2.game-page-subtitle{
+	color: var(--dark-accent);
+	font-size: 20pt;
+	font-weight: bold;
+	margin-bottom: 16;
+}
+
+h3.game-subtitle{
+	color: var(--dark-accent);
+	font-size: 16pt;
+	font-weight: bold;
+	margin-top: 0;
 }
 
 .game-description{
+	color: var(--dark-shade);
 	font-size: 14pt;
+	font-weight: normal;
 }
 
 .game-button-wrapper{
@@ -93,18 +125,22 @@ body{
 .game-img-wrapper{
 	width: 500px;
 	height: var(--game-img-height);
-	background: var(--main-color);
+	margin-left: 10px;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: flex;
+	align-items: center;
 }
 
 .game-img{
 	width: 100%;
 	height: 80%;
 	border-radius: var(--game-img-radius);
-	background-image: url('/MrBundles/assets/images/cover_images/the_downside.png');
+	background-image: var(--cover);
 	background-size: cover;
 	background-position: center;
 }
 
 .game-img:hover{
-	background-image: url('/MrBundles/assets/images/gifs/the_downside/the_downside_1.gif');
+	background-image: var(--sample);
 }

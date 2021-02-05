@@ -55,7 +55,7 @@ body{
 }
 
 .game-info-wrapper{
-
+	width: 500px;
 }
 
 h1.site-title{
@@ -63,6 +63,27 @@ h1.site-title{
 	font-size: 36pt;
 	font-weight: bold;
 	margin-left: 10px;
+}
+
+.centerize{
+	text-align: center;
+}
+
+.all-games-button{
+	background: var(--main-color);
+	border: none;
+	color: var(--light-shade);
+	font-size: 14pt;
+	font-weight: bold;
+	width: 350px;
+	height: 50px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+.all-games-button:hover{
+	background: var(--lighter-accent);
+	color: var(--main-color);
 }
 
 h1.game-page-title{
@@ -120,6 +141,19 @@ h3.game-subtitle{
 .game-button:hover{
 	background: var(--light-shade);
 	color: var(--main-color);
+}
+
+.game-button-disabled{
+	background: var(--main-color-light);
+	border: none;
+	color: var(--light-shade);
+	font-size: 14pt;
+	font-weight: bold;
+	width: 115px;
+	height: 50px;
+	border-radius: 5px;
+	margin-left: 15px;
+	margin-right: 15px;
 }
 
 .game-img-wrapper{

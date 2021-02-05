@@ -5,7 +5,7 @@ permalink: /games/the-downside/
 <html>
 	<h1 class="game-page-title">The Downside</h1>
 	<h2 class="game-page-subtitle">Your World Turned Upside Down</h2>
-	<iframe frameborder="0" src="https://itch.io/embed-upload/3272418?color=2b2d42" allowfullscreen="" width="854" height="500"><a href="https://mrbundles.itch.io/the-downside">Play The Downside on itch.io</a></iframe>
+	<iframe frameborder="0" src="https://itch.io/embed-upload/3272418?color=CB324E" allowfullscreen="" width="854" height="500"><a href="https://mrbundles.itch.io/the-downside">Play The Downside on itch.io</a></iframe>
 </html>
 
 This is my submission to the  BlackThornProd Game Jam #3 (Theme: Less is More)
